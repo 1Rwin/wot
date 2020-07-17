@@ -8,13 +8,18 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 import java.util.List;
 
+@Entity
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 public class Card {
-
+    @Id
+    @GeneratedValue
     private int id;
     private String name;
     private CardType type;
@@ -26,7 +31,7 @@ public class Card {
     private int defence;
     private int healthPoints;
     private VehicleType vehicleType;
-    private List<Skill> skills;
+//    private List<Skill> skills;
     private int medalValue;
     private boolean ifDefendable;
     private int defendingCardId;

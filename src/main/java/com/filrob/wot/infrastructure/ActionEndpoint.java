@@ -5,7 +5,8 @@ import com.filrob.wot.domain.actions.AttackResult;
 import com.filrob.wot.domain.card.Card;
 import com.filrob.wot.domain.card.enums.CardType;
 import com.filrob.wot.domain.skill.SkillResult;
-import lombok.RequiredArgsConstructor;
+import com.filrob.wot.repository.CardsRepository;
+import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -14,10 +15,16 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequiredArgsConstructor
+@AllArgsConstructor
 public class ActionEndpoint {
 
     private final ActionFacade actionFacade;
+    private final CardsRepository cardsRepository;
+
+    @GetMapping("/TEST/getAllCards")
+    public List<Card> getAllCards(){
+       return cardsRepository.findAll();
+    }
 
     @GetMapping("/action/getNewCards")
     public List<Card> getNewCards(int playerId, CardType cardType, int quantity){
