@@ -212,3 +212,230 @@ insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, IF_NATIONAL, CARD_COST, NAT
 values ('M2 Mortar', 'VEHICLE', '1', '0', '0', 'USA', '1', '0', '100', 'SPECIAL', 'BASE_ATTACK');
 insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, IF_NATIONAL, CARD_COST, NATIONALITY, ATTACK, DEFENCE, HEALTH_POINTS, VEHICLE_TYPE, SKILL1)
 values ('LongTom 155 mm', 'VEHICLE', '0', '0', '0', 'USA', '1', '0', '100', 'SPECIAL', 'RECRUITMENT');
+
+
+-- Medals
+-- French
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('French Medal', 'MEDAL', '1', '1', 'FRENCH');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('French Medal', 'MEDAL', '1', '1', 'FRENCH');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('French Medal', 'MEDAL', '1', '1', 'FRENCH');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('French Medal', 'MEDAL', '1', '1', 'FRENCH');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('French Medal', 'MEDAL', '1', '1', 'FRENCH');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('French Medal', 'MEDAL', '1', '1', 'FRENCH');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('French Medal', 'MEDAL', '1', '1', 'FRENCH');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('French Medal', 'MEDAL', '1', '1', 'FRENCH');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('French Medal', 'MEDAL', '1', '1', 'FRENCH');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('French Medal', 'MEDAL', '1', '2', 'FRENCH');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('French Medal', 'MEDAL', '1', '2', 'FRENCH');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('French Medal', 'MEDAL', '1', '2', 'FRENCH');
+
+-- Russian
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('Russian Medal', 'MEDAL', '1', '1', 'RUSSIAN');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('Russian Medal', 'MEDAL', '1', '1', 'RUSSIAN');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('Russian Medal', 'MEDAL', '1', '1', 'RUSSIAN');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('Russian Medal', 'MEDAL', '1', '1', 'RUSSIAN');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('Russian Medal', 'MEDAL', '1', '1', 'RUSSIAN');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('Russian Medal', 'MEDAL', '1', '1', 'RUSSIAN');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('Russian Medal', 'MEDAL', '1', '1', 'RUSSIAN');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('Russian Medal', 'MEDAL', '1', '1', 'RUSSIAN');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('Russian Medal', 'MEDAL', '1', '1', 'RUSSIAN');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('Russian Medal', 'MEDAL', '1', '2', 'RUSSIAN');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('Russian Medal', 'MEDAL', '1', '2', 'RUSSIAN');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('Russian Medal', 'MEDAL', '1', '2', 'RUSSIAN');
+
+-- German
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('German Medal', 'MEDAL', '1', '1', 'GERMAN');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('German Medal', 'MEDAL', '1', '1', 'GERMAN');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('German Medal', 'MEDAL', '1', '1', 'GERMAN');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('German Medal', 'MEDAL', '1', '1', 'GERMAN');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('German Medal', 'MEDAL', '1', '1', 'GERMAN');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('German Medal', 'MEDAL', '1', '1', 'GERMAN');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('German Medal', 'MEDAL', '1', '1', 'GERMAN');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('German Medal', 'MEDAL', '1', '1', 'GERMAN');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('German Medal', 'MEDAL', '1', '1', 'GERMAN');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('German Medal', 'MEDAL', '1', '2', 'GERMAN');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('German Medal', 'MEDAL', '1', '2', 'GERMAN');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('German Medal', 'MEDAL', '1', '2', 'GERMAN');
+
+-- USA
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('USA Medal', 'MEDAL', '1', '1', 'USA');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('USA Medal', 'MEDAL', '1', '1', 'USA');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('USA Medal', 'MEDAL', '1', '1', 'USA');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('USA Medal', 'MEDAL', '1', '1', 'USA');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('USA Medal', 'MEDAL', '1', '1', 'USA');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('USA Medal', 'MEDAL', '1', '1', 'USA');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('USA Medal', 'MEDAL', '1', '1', 'USA');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('USA Medal', 'MEDAL', '1', '1', 'USA');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('USA Medal', 'MEDAL', '1', '1', 'USA');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('USA Medal', 'MEDAL', '1', '2', 'USA');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('USA Medal', 'MEDAL', '1', '2', 'USA');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE, MEDAL_VALUE, NATIONALITY)
+values ('USA Medal', 'MEDAL', '1', '2', 'USA');
+
+-- Medals
+-- Bases
+insert into CARDS (CARD_NAME, CARD_TYPE, MEDAL_VALUE)
+values ('Base', 'BASE', '3');
+insert into CARDS (CARD_NAME, CARD_TYPE, MEDAL_VALUE)
+values ('Base', 'BASE', '3');
+insert into CARDS (CARD_NAME, CARD_TYPE, MEDAL_VALUE)
+values ('Base', 'BASE', '3');
+insert into CARDS (CARD_NAME, CARD_TYPE, MEDAL_VALUE)
+values ('Base', 'BASE', '3');
+insert into CARDS (CARD_NAME, CARD_TYPE, MEDAL_VALUE)
+values ('Base', 'BASE', '3');
+insert into CARDS (CARD_NAME, CARD_TYPE, MEDAL_VALUE)
+values ('Base', 'BASE', '3');
+insert into CARDS (CARD_NAME, CARD_TYPE, MEDAL_VALUE)
+values ('Base', 'BASE', '3');
+insert into CARDS (CARD_NAME, CARD_TYPE, MEDAL_VALUE)
+values ('Base', 'BASE', '3');
+insert into CARDS (CARD_NAME, CARD_TYPE, MEDAL_VALUE)
+values ('Base', 'BASE', '3');
+insert into CARDS (CARD_NAME, CARD_TYPE, MEDAL_VALUE)
+values ('Base', 'BASE', '3');
+insert into CARDS (CARD_NAME, CARD_TYPE, MEDAL_VALUE)
+values ('Base', 'BASE', '3');
+insert into CARDS (CARD_NAME, CARD_TYPE, MEDAL_VALUE)
+values ('Base', 'BASE', '3');
+insert into CARDS (CARD_NAME, CARD_TYPE, MEDAL_VALUE)
+values ('Base', 'BASE', '3');
+insert into CARDS (CARD_NAME, CARD_TYPE, MEDAL_VALUE)
+values ('Base', 'BASE', '3');
+insert into CARDS (CARD_NAME, CARD_TYPE, MEDAL_VALUE)
+values ('Base', 'BASE', '3');
+
+-- Barracks
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE)
+values ('Engineer', 'BARRACKS', '1');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE)
+values ('Engineer', 'BARRACKS', '1');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE)
+values ('Engineer', 'BARRACKS', '1');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE)
+values ('Engineer', 'BARRACKS', '1');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE)
+values ('Engineer', 'BARRACKS', '1');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE)
+values ('Engineer', 'BARRACKS', '1');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE)
+values ('Engineer', 'BARRACKS', '1');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE)
+values ('Engineer', 'BARRACKS', '1');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE)
+values ('Engineer', 'BARRACKS', '1');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE)
+values ('Engineer', 'BARRACKS', '1');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE)
+values ('Engineer', 'BARRACKS', '1');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE)
+values ('Engineer', 'BARRACKS', '1');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE)
+values ('Engineer', 'BARRACKS', '1');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE)
+values ('Engineer', 'BARRACKS', '1');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE)
+values ('Engineer', 'BARRACKS', '1');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE)
+values ('Engineer', 'BARRACKS', '1');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE)
+values ('Engineer', 'BARRACKS', '1');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE)
+values ('Engineer', 'BARRACKS', '1');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE)
+values ('Engineer', 'BARRACKS', '1');
+insert into CARDS (CARD_NAME, CARD_TYPE, CARD_VALUE)
+values ('Engineer', 'BARRACKS', '1');
+insert into CARDS (CARD_NAME, CARD_TYPE, SKILL1, SKILL1_VALUE)
+values ('Technician', 'BARRACKS', 'RESEARCH', '1');
+insert into CARDS (CARD_NAME, CARD_TYPE, SKILL1, SKILL1_VALUE)
+values ('Technician', 'BARRACKS', 'RESEARCH', '1');
+insert into CARDS (CARD_NAME, CARD_TYPE, SKILL1, SKILL1_VALUE)
+values ('Technician', 'BARRACKS', 'RESEARCH', '1');
+insert into CARDS (CARD_NAME, CARD_TYPE, SKILL1, SKILL1_VALUE)
+values ('Technician', 'BARRACKS', 'RESEARCH', '1');
+insert into CARDS (CARD_NAME, CARD_TYPE, SKILL1, SKILL1_VALUE)
+values ('Technician', 'BARRACKS', 'RESEARCH', '1');
+insert into CARDS (CARD_NAME, CARD_TYPE, SKILL1)
+values ('Volunteer', 'BARRACKS', 'RECRUITMENT');
+insert into CARDS (CARD_NAME, CARD_TYPE, SKILL1)
+values ('Volunteer', 'BARRACKS', 'RECRUITMENT');
+insert into CARDS (CARD_NAME, CARD_TYPE, SKILL1)
+values ('Volunteer', 'BARRACKS', 'RECRUITMENT');
+insert into CARDS (CARD_NAME, CARD_TYPE, SKILL1)
+values ('Volunteer', 'BARRACKS', 'RECRUITMENT');
+insert into CARDS (CARD_NAME, CARD_TYPE, SKILL1)
+values ('Volunteer', 'BARRACKS', 'RECRUITMENT');
+
+--Achievements
+insert into CARDS (CARD_NAME, CARD_TYPE, MEDAL_VALUE)
+values ('Destroyed bases', 'ACHIEVEMENT', '5');
+insert into CARDS (CARD_NAME, CARD_TYPE, MEDAL_VALUE)
+values ('Light tanks', 'ACHIEVEMENT', '5');
+insert into CARDS (CARD_NAME, CARD_TYPE, MEDAL_VALUE)
+values ('Medium tanks', 'ACHIEVEMENT', '5');
+insert into CARDS (CARD_NAME, CARD_TYPE, MEDAL_VALUE)
+values ('Heavy tanks', 'ACHIEVEMENT', '5');
+insert into CARDS (CARD_NAME, CARD_TYPE, MEDAL_VALUE)
+values ('Artillery', 'ACHIEVEMENT', '5');
+insert into CARDS (CARD_NAME, CARD_TYPE, MEDAL_VALUE)
+values ('Special units', 'ACHIEVEMENT', '5');
+insert into CARDS (CARD_NAME, CARD_TYPE, MEDAL_VALUE)
+values ('French medals', 'ACHIEVEMENT', '5');
+insert into CARDS (CARD_NAME, CARD_TYPE, MEDAL_VALUE)
+values ('Russian medals', 'ACHIEVEMENT', '5');
+insert into CARDS (CARD_NAME, CARD_TYPE, MEDAL_VALUE)
+values ('German medals', 'ACHIEVEMENT', '5');
+insert into CARDS (CARD_NAME, CARD_TYPE, MEDAL_VALUE)
+values ('USA medals', 'ACHIEVEMENT', '5');
+insert into CARDS (CARD_NAME, CARD_TYPE, MEDAL_VALUE)
+values ('Concentrated attack', 'ACHIEVEMENT', '5');
+insert into CARDS (CARD_NAME, CARD_TYPE, MEDAL_VALUE)
+values ('Largest unit', 'ACHIEVEMENT', '5');
