@@ -1,38 +1,26 @@
 package com.filrob.wot.domain.card;
 
-import com.filrob.wot.domain.nationality.Nationality;
-import com.filrob.wot.domain.skill.Skill;
-import com.filrob.wot.domain.vehicle.VehicleType;
 import com.filrob.wot.domain.card.enums.CardType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import java.util.List;
+import javax.persistence.*;
+
+import static javax.persistence.InheritanceType.SINGLE_TABLE;
 
 @Entity
+@Inheritance(strategy=SINGLE_TABLE)
+@DiscriminatorColumn(name="card_type",discriminatorType = DiscriminatorType.STRING)
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Cards {
+public abstract class Cards {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
     private int id;
-    private String name;
+    private String cardName;
+    @Enumerated(value=EnumType.STRING)
     private CardType type;
-    private int value;
-    private boolean ifNationalValue;
-    private int cost;
-    private Nationality nationality;
-    private int attack;
-    private int defence;
-    private int healthPoints;
-    private VehicleType vehicleType;
-//    private List<Skill> skills;
-    private int medalValue;
-    private boolean ifDefendable;
-    private int defendingCardId;
+
 }

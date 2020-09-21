@@ -2,11 +2,13 @@ package com.filrob.wot.infrastructure;
 
 import com.filrob.wot.domain.actions.AttackRequest;
 import com.filrob.wot.domain.actions.AttackResult;
+import com.filrob.wot.domain.card.BaseCard;
 import com.filrob.wot.domain.card.Cards;
 import com.filrob.wot.domain.card.enums.CardType;
 import com.filrob.wot.domain.skill.SkillResult;
 import com.filrob.wot.repository.CardsRepository;
 import lombok.AllArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -19,7 +21,8 @@ import java.util.List;
 public class ActionEndpoint {
 
     private final ActionFacade actionFacade;
-    private final CardsRepository cardsRepository;
+    @Autowired
+    CardsRepository cardsRepository;
 
     @GetMapping("/TEST/getAllCards")
     public List<Cards> getAllCards(){

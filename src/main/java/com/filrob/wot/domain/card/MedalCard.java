@@ -1,25 +1,18 @@
 package com.filrob.wot.domain.card;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import com.filrob.wot.domain.nationality.Nationality;
 
-import javax.persistence.Column;
+import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 
-@Entity(name = "MEDAL_CARDS")
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
-public class MedalCard {
+@Entity
+@DiscriminatorValue(value="MedalCard")
+public class MedalCard extends Cards {
 
-    @Id
-    @GeneratedValue
-    private int id;
-    private String cardName;
     private int cardValue;
     private int medalValue;
-    private String nationality;
+    @Enumerated(value = EnumType.STRING)
+    private Nationality nationality;
 }

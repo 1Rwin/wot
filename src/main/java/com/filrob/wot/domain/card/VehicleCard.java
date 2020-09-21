@@ -1,39 +1,31 @@
 package com.filrob.wot.domain.card;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import com.filrob.wot.domain.nationality.Nationality;
+import com.filrob.wot.domain.vehicle.VehicleType;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 
-@Entity(name = "VEHICLE_CARDS")
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
-public class VehicleCard {
+@Entity
+@DiscriminatorValue(value = "VehicleCard")
+public class VehicleCard extends Cards {
 
-    @Id
-    @GeneratedValue
-    private int id;
-    private String cardName;
     private int cardValue;
     private boolean ifNational;
     private int cardCost;
-    private String nationality;
+    @Enumerated(value = EnumType.STRING)
+    private Nationality nationality;
     private int attack;
     private int defence;
     private int healthPoints;
-    private String vehicleType;
+    @Enumerated(value = EnumType.STRING)
+    private VehicleType vehicleType;
     private String skill1;
-    @Column(name = "SKILL1_VALUE")
+    @Column(name = "skill1_Value")
     private int skill1Value;
     private String skill2;
-    @Column(name = "SKILL2_VALUE")
+    @Column(name = "skill2_Value")
     private int skill2Value;
-//    private boolean ifDefendable;  TODO: ogarnąć o co chodziło
+    private boolean ifDefensive;
     private int defendingCardId;
 
 }

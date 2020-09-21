@@ -4,20 +4,11 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 
-@Entity(name = "BASE_CARDS")
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
-public class BaseCard {
+@Entity
+@DiscriminatorValue(value="BaseCard")
+public class BaseCard extends Cards{
 
-    @Id
-    @GeneratedValue
-    private int id;
-    private String cardName;
     private int medalValue;
 }

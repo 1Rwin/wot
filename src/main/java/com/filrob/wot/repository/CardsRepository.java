@@ -8,6 +8,4 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface CardsRepository extends CrudRepository<Cards, Integer>, JpaRepository<Cards, Integer> {
 
-//    List<Card> getRandomCard(CardType type, int quantity);
-
 }
