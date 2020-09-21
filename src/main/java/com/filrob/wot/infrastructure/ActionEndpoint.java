@@ -2,7 +2,7 @@ package com.filrob.wot.infrastructure;
 
 import com.filrob.wot.domain.actions.AttackRequest;
 import com.filrob.wot.domain.actions.AttackResult;
-import com.filrob.wot.domain.card.Card;
+import com.filrob.wot.domain.card.Cards;
 import com.filrob.wot.domain.card.enums.CardType;
 import com.filrob.wot.domain.skill.SkillResult;
 import com.filrob.wot.repository.CardsRepository;
@@ -22,12 +22,12 @@ public class ActionEndpoint {
     private final CardsRepository cardsRepository;
 
     @GetMapping("/TEST/getAllCards")
-    public List<Card> getAllCards(){
+    public List<Cards> getAllCards(){
        return cardsRepository.findAll();
     }
 
     @GetMapping("/action/getNewCards")
-    public List<Card> getNewCards(int playerId, CardType cardType, int quantity){
+    public List<Cards> getNewCards(int playerId, CardType cardType, int quantity){
         return actionFacade.givePlayerNewCards(playerId,cardType,quantity);
     }
 
@@ -42,12 +42,12 @@ public class ActionEndpoint {
     }
 
     @GetMapping("/action/showCards")
-    public List<Card> showCards(int playerId){
+    public List<Cards> showCards(int playerId){
         return actionFacade.showCards(playerId);
     }
 
     @GetMapping("/action/buyCard")
-    public Card buyCard(int playerId, int cardId){
+    public Cards buyCard(int playerId, int cardId){
         return actionFacade.buyCard(playerId, cardId);
     }
 

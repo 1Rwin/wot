@@ -1,6 +1,6 @@
 package com.filrob.wot.domain.game;
 
-import com.filrob.wot.domain.card.Card;
+import com.filrob.wot.domain.card.Cards;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
@@ -10,12 +10,12 @@ import java.util.List;
 @AllArgsConstructor
 public class GameTable {
 
-    private List<Card> cardsToBuy;
-    private List<Card> junkyard;
-    private List<Card> hiddenCardsPile;
-    private List<Card> notBoughtCards;
+    private List<Cards> cardsToBuy;
+    private List<Cards> junkyard;
+    private List<Cards> hiddenCardsPile;
+    private List<Cards> notBoughtCards;
     private int firstPlayerId;
-    private List<Card> gameAchievements;
-    private List<Card> medals;
+    private List<Cards> gameAchievements;
+    private List<Cards> medals;
 
 }

@@ -2,7 +2,7 @@ package com.filrob.wot.infrastructure;
 
 import com.filrob.wot.domain.actions.AttackRequest;
 import com.filrob.wot.domain.actions.AttackResult;
-import com.filrob.wot.domain.card.Card;
+import com.filrob.wot.domain.card.Cards;
 import com.filrob.wot.domain.card.enums.CardType;
 import com.filrob.wot.domain.skill.SkillResult;
 import lombok.AllArgsConstructor;
@@ -17,7 +17,7 @@ public class ActionFacadeImpl implements ActionFacade {
 //    private final CardsRepository cardsRepository;
 
     @Override
-    public List<Card> givePlayerNewCards(int playerId, CardType cardType, int quantity) {
+    public List<Cards> givePlayerNewCards(int playerId, CardType cardType, int quantity) {
         return null;
     }
 
@@ -31,12 +31,12 @@ public class ActionFacadeImpl implements ActionFacade {
     }
 
     @Override
-    public List<Card> showCards(int playerId) {
+    public List<Cards> showCards(int playerId) {
         return null;
     }
 
     @Override
-    public Card buyCard(int playerId, int cardId) {
+    public Cards buyCard(int playerId, int cardId) {
         return null;
     }
 
