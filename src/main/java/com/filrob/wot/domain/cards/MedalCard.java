@@ -1,4 +1,4 @@
-package com.filrob.wot.domain.card;
+package com.filrob.wot.domain.cards;
 
 import com.filrob.wot.domain.nationality.Nationality;
 
@@ -11,8 +11,8 @@ import javax.persistence.Enumerated;
 @DiscriminatorValue(value="MedalCard")
 public class MedalCard extends Cards {
 
-    private int cardValue;
-    private int medalValue;
+    private Integer cardValue;
+    private Integer medalValue;
     @Enumerated(value = EnumType.STRING)
     private Nationality nationality;
 }

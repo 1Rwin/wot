@@ -1,6 +1,6 @@
-package com.filrob.wot.domain.card;
+package com.filrob.wot.domain.cards;
 
-import com.filrob.wot.domain.card.enums.CardType;
+import com.filrob.wot.domain.cards.enums.CardType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -18,7 +18,7 @@ import static javax.persistence.InheritanceType.SINGLE_TABLE;
 public abstract class Cards {
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
-    private int id;
+    private Integer id;
     private String cardName;
     @Enumerated(value=EnumType.STRING)
     private CardType type;

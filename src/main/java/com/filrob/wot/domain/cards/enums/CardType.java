@@ -1,4 +1,4 @@
-package com.filrob.wot.domain.card.enums;
+package com.filrob.wot.domain.cards.enums;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;

@@ -1,6 +1,6 @@
 package com.filrob.wot.domain.player;
 
-import com.filrob.wot.domain.card.Cards;
+import com.filrob.wot.domain.cards.Cards;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 

@@ -2,8 +2,8 @@ package com.filrob.wot.infrastructure;
 
 import com.filrob.wot.domain.actions.AttackRequest;
 import com.filrob.wot.domain.actions.AttackResult;
-import com.filrob.wot.domain.card.Cards;
-import com.filrob.wot.domain.card.enums.CardType;
+import com.filrob.wot.domain.cards.Cards;
+import com.filrob.wot.domain.cards.enums.CardType;
 import com.filrob.wot.domain.skill.SkillResult;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Component;

@@ -1,4 +1,4 @@
-package com.filrob.wot.domain.card;
+package com.filrob.wot.domain.cards;
 
 import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
@@ -7,5 +7,5 @@ import javax.persistence.Entity;
 @DiscriminatorValue(value = "AchievementCard")
 public class AchievementCard extends Cards {
 
-    private int medalValue;
+    private Integer medalValue;
 }
