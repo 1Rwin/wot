@@ -1,4 +1,4 @@
-package com.filrob.wot.infrastructure;
+package com.filrob.wot.infrastructure.actions;
 
 import com.filrob.wot.domain.actions.AttackRequest;
 import com.filrob.wot.domain.actions.AttackResult;
@@ -19,7 +19,8 @@ import java.util.List;
 @AllArgsConstructor
 public class ActionEndpoint {
 
-    private final ActionFacade actionFacade;
+    @Autowired
+    ActionFacade actionFacade;
     @Autowired
     CardsRepository cardsRepository;
 

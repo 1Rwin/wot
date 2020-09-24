@@ -20,7 +20,5 @@ public abstract class Cards {
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     private Integer id;
     private String cardName;
-    @Enumerated(value=EnumType.STRING)
-    private CardType type;
 
 }

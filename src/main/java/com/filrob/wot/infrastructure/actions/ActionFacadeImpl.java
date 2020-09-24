@@ -1,4 +1,4 @@
-package com.filrob.wot.infrastructure;
+package com.filrob.wot.infrastructure.actions;
 
 import com.filrob.wot.domain.actions.AttackRequest;
 import com.filrob.wot.domain.actions.AttackResult;

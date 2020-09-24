@@ -8,5 +8,6 @@ public class BarracksCard extends Cards{
 
     private Integer cardValue;
     private String skill1;
+    @Column(name = "skill1_Value")
     private Integer skill1Value;
 }
